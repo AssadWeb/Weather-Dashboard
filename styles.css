@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        to right,
+    #424141, #000
+    )
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 2vw;
+}
+
+input[name="search"]{
+    background-color: #424141;
+    width: 40vw;
+    height: 4vh;
+    border-radius: 2rem;
+    border: none;
+    
+}
+
+.current-l{
+    border: none;
+    border-radius: 2rem;
+    width: 20vw;
+    background-color: #4CBB17;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gps {
+    width: 2vw;
+    height: 2vh;
+    margin-right: 1vh;
+    object-fit: contain;
+}
